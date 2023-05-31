@@ -1,6 +1,6 @@
 # Daftar Isi
 Berikut alur belajar Pemrograman Android dari Tim AMOLED
-- [Instalasi Android Studio]()
+- [Instalasi Android Studio](#instalasi-android-studio)
 - [View Binding]()
 - [Activity (New Project)]()
 - [View dan View Grup]()
