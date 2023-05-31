@@ -8,19 +8,19 @@ Modul ini dirancang untuk memudahkan pembelajaran Android secara terstruktur dan
 
 Selamat Belajar ✍🏼
 
-## Roadmap (Table of Content)
+## Roadmap
 
 Berikut alur belajar Android dari Tim AMOLED
 
 ### Kotlin
 
-- [Instalasi]()
+- [Instalasi Intellij IDEA]()
 - [Fundamental]()
 - [Control Flow]()
 - [OOP]()
 - [Kotlin Coroutines]()
 
-### Android Dasar
+### Android Dasar <sup>[belajar](https://github.com/Study-Club-Unida/AMOLED/blob/main/Modul%20Android.md) </sup>
 
 - [Instalasi Android Studio]()
 - [View Binding]()
