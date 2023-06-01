@@ -14,11 +14,11 @@ Berikut alur belajar Android dari Tim AMOLED
 
 ### Kotlin <sup>[belajar](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md) </sup>
 
-- [Instalasi Intellij IDEA](#instalasi-intellij-idea)
-- [Fundamental](#fundamental)
-- [Control Flow](#control-flow)
-- [OOP](#object-oriented-programming)
-- [Kotlin Coroutines](#kotlin-corountines)
+- [Instalasi Intellij IDEA](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#instalasi-intellij-idea)
+- [Fundamental](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#fundamental)
+- [Control Flow](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#control-flow)
+- [OOP](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#object-oriented-programming)
+- [Kotlin Coroutines](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#kotlin-corountines)
 
 ### Android Dasar <sup>[belajar](https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Modul%20Android.md) </sup>
 
