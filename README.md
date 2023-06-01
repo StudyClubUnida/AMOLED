@@ -22,7 +22,7 @@ Berikut alur belajar Android dari Tim AMOLED
 
 ### Android Dasar <sup>[belajar](https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Modul%20Android.md) </sup>
 
-- [Instalasi Android Studio](Modul%20Android.md#instalasi-android-studio)
+- [Instalasi Android Studio](https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Modul%20Android.md#instalasi-android-studio)
 - [View Binding]()
 - [Activity (New Project)]()
 - [View dan View Grup]()
