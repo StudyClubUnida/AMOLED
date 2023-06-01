@@ -1,4 +1,6 @@
 # Daftar Isi
+>>> [Back to home](https://github.com/Study-Club-Unida/AMOLED/blob/main/README.md)
+
 Berikut alur belajar Pemrograman Android dari Tim AMOLED
 - [Instalasi Android Studio](#instalasi-android-studio)
 - [View Binding](#view-binding)
