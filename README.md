@@ -14,25 +14,25 @@ Berikut alur belajar Android dari Tim AMOLED
 
 ### Kotlin <sup>[belajar](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md) </sup>
 
-- [Instalasi Intellij IDEA](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#instalasi-intellij-idea)
-- [Fundamental](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#fundamental)
-- [Control Flow](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#control-flow)
-- [OOP](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#object-oriented-programming)
-- [Kotlin Coroutines](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#kotlin-corountines)
+1. [Instalasi Intellij IDEA](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#instalasi-intellij-idea)
+2. [Fundamental](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#fundamental)
+3. [Control Flow](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#control-flow)
+4. [OOP](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#object-oriented-programming)
+5. [Kotlin Coroutines](https://github.com/Study-Club-Unida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md#kotlin-corountines)
 
 ### Android Dasar <sup>[belajar](https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Modul%20Android.md) </sup>
 
-- [Instalasi Android Studio](https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Modul%20Android.md#instalasi-android-studio)
-- [View Binding]()
-- [Activity (New Project)]()
-- [View dan View Grup]()
-- [Intent]()
-- [Recycler View]()
-- [Visual Design & Prototype]()
-- [Fragment]()
-- [Networking]()
-- [Android Architecture]()
-- [Local Data]()
+1. [Instalasi Android Studio](https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Modul%20Android.md#instalasi-android-studio)
+2. [View Binding]()
+3. [Activity (New Project)]()
+4. [View dan View Grup]()
+5. [Intent]()
+6. [Recycler View]()
+7. [Visual Design & Prototype]()
+8. [Fragment]()
+9. [Networking]()
+10. [Android Architecture]()
+11. [Local Data]()
 
 ## Documentation
 
@@ -43,7 +43,12 @@ Berikut alur belajar Android dari Tim AMOLED
 [Material Design 3 Documentation](https://m3.material.io/)
 
 ## Authors
-- [ardenaAfif](https://github.com/ardenaAfif)
+- [Pratama](https://github.com/ardenaAfif)
+- [Nabil]()
+- [Dafa]()
+- [Zarkasih]()
+- [Haidar]()
+- [Noris]()
 
 ## Special Thanks
 - Allah SWT.
