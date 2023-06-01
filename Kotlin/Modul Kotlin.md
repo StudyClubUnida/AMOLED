@@ -1,4 +1,6 @@
 # Daftar Isi
+>>> [Back to home](https://github.com/Study-Club-Unida/AMOLED/blob/main/README.md)
+
 Berikut alur belajar Kotlin dari Tim AMOLED
 - [Instalasi Intellij IDEA](#instalasi-intellij-idea)
 - [Fundamental](#fundamental)
