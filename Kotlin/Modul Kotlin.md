@@ -7,10 +7,11 @@ Berikut alur belajar Kotlin dari Tim AMOLED
 - [Kotlin Coroutines](#kotlin-corountines)
 
 > ## Instalasi Intellij IDEA
-Silahkan tonton video tutorial Instalasi Android Studio dibawah ini.
+Silahkan tonton video tutorial Instalasi Intellij IDEA dibawah ini.
 
 Ikuti secara perlahan jangan sampai ada bagian yang terlewat.
-[![Alt text](https://i.ytimg.com/vi/DM783YA0vbc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2HxBr2ER7rgtf-5G0jGBo2q0LAw)](https://www.youtube.com/watch?v=DM783YA0vbc&ab_channel=GeekyScript)
+
+[![Alt text](https://i.ytimg.com/vi/3d_O723THUs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNCbphFsg2CFIlKPFw0OTdYIVorg)](https://www.youtube.com/watch?v=3d_O723THUs&ab_channel=GeekyScript)
 
 > ## Fundamental
 Pada bab ini, kita akan belajar fundamental dari Bahasa Pemrograman Kotlin. Kita akan belajar bersama mengenai tipe data, function, expression dan juga nullability pada Kotlin. Semangat Belajar💪🏻
