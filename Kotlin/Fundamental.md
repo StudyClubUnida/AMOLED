@@ -1,17 +1,17 @@
 > ## Fundamental Kotlin
 
 ## Daftar Isi
-1. [Kotlin Fundamental](#instalasi-intellij-idea)
-2. [Tipe Data & Variable](#fundamental)
-3. [Char](#control-flow)
-4. [String](#object-oriented-programming)
-5. [If Conditions](#kotlin-corountines)
-6. [Boolean](#kotlin-corountines)
-7. [Numbers](#kotlin-corountines)
-8. [Arrays](#kotlin-corountines)
-9. [Tipe Nullable](#kotlin-corountines)
-10. [Safe Call](#kotlin-corountines)
-11. [String Template](#kotlin-corountines)
+1. [Kotlin Fundamental](#kotlin-fundamental)
+2. [Tipe Data & Variable](#tipe-data--variable)
+3. [Char](#char)
+4. [String](#string)
+5. [If Conditions](#if-conditions)
+6. [Boolean](#boolean)
+7. [Numbers](#numbers)
+8. [Arrays](#arrays)
+9. [Tipe Nullable](#tipe-nullable)
+10. [Safe Call](#safe-call)
+11. [String Template](#string-template)
 
 ## Kotlin Fundamental
 >> [UP](#daftar-isi)
