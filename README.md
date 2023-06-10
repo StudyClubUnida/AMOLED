@@ -43,12 +43,16 @@ Berikut alur belajar Android dari Tim AMOLED
 [Material Design 3 Documentation](https://m3.material.io/)
 
 ## Authors
-- [Pratama](https://github.com/ardenaAfif)
 - [Nabil]()
 - [Dafa]()
 - [Zarkasih]()
 - [Haidar]()
 - [Noris]()
+
+## Contributors
+- [Pratama](https://github.com/ardenaAfif)
+- [Mazpiss](https://github.com/MazpissVisual)
+- [Hikmet](https://github.com/ahikmatyar18)
 
 ## Special Thanks
 - Allah SWT.
