@@ -26,6 +26,8 @@
 
 Kita telah mempelajari di sub-modul sebelumnya bahwa Kotlin mendukung pengembangan program berorientasi objek dengan sangat baik. Hal ini dikarenakan OOP masih menjadi paradigma atau teknik pemrograman yang populer dalam pengembangan aplikasi. Paradigma OOP memungkinkan kita untuk memvisualisasikan kode dengan mudah karena mirip dengan situasi dalam kehidupan nyata.
 
+![Scenario OOP](https://d17ivq9b7rppb3.cloudfront.net/original/academy/20190430142436d1d3240f3e0d70090704499c40954776.png)
+
 Gambaran di atas mengilustrasikan konsep umum OOP, di mana ada sebuah gambaran dasar tentang mobil, komponen yang ada dalam mobil, dan kemampuan yang dapat dilakukan oleh mobil tersebut. Dalam OOP, gambaran dasar ini dikenal sebagai **Class** (kelas), komponen yang ada dikenal sebagai atribut, kemampuan yang dimiliki dikenal sebagai perilaku (behavior), dan hasil nyata dari gambaran dasar tersebut disebut **objek**.
 
 Pada bagian ini, kami akan mengulas secara mendalam mengenai **objek, kelas, atribut,** dan **perilaku** yang ada dalam OOP.
@@ -43,6 +45,8 @@ val someString = “Amoled”
 ```
 
 Dalam kode tersebut, kita membuat sebuah variabel bernama `someString` yang juga merupakan objek. Objek tersebut adalah hasil konkret dari kelas `String`, sehingga objek `someString` memiliki fungsi dan properti yang merupakan anggota dari kelas `String`.
+
+![Completion Sugestion](https://d17ivq9b7rppb3.cloudfront.net/original/academy/202007010844593d92b258aea10a4c158d1ecd6089c5f5.png)
 
 Dari daftar saran penyelesaian yang tersedia di IntelliJ Idea, kita dapat melihat beberapa fungsi yang dapat digunakan pada objek `someString`. Misalnya, kita dapat menggunakan fungsi `reverse()` untuk mengubah urutan huruf menjadi terbalik, fungsi `toUpperCase()` untuk mengubah huruf menjadi huruf kapital, atau fungsi `toLowerCase()` untuk mengubah huruf menjadi huruf kecil.
 
@@ -95,14 +99,16 @@ Seperti yang telah dijelaskan sebelumnya mengenai konsep objek, **kelas** merupa
 
 Setiap kelas memiliki atribut dan perilaku. Dalam Kotlin, atribut lebih sering disebut sebagai **properti (properties)**, sedangkan perilaku lebih sering disebut sebagai **fungsi (functions)**. Properti dalam sebuah kelas memiliki tipe data tertentu. Sebagai contoh, dalam kelas Hewan, properti berat dapat memiliki tipe data **Double**, properti nama dapat memiliki tipe data **String**, properti umur dapat memiliki tipe data **Int**, dan properti indikasi mamalia dapat memiliki tipe data **Boolean**. Jika kita menggambarkan kelas Hewan dalam bentuk tabel, akan terlihat seperti berikut:
 
-```
-+ name: String
-+ weight: Double
-+ age: Int
-+ isMammal: Boolean
-- eat()
-- sleep()
-```
+Berikut adalah tabel dalam format Markdown dengan detail yang Anda berikan:
+
+| Animal           |                 
+|------------------|
+| name:String      |           
+| weight:Double    |           
+| age:Int          |              
+| isMammal:Boolean |         
+| eat()            |                 
+| sleep()          |                
 
 `+merupakan properti`
 
@@ -619,6 +625,8 @@ Pada kali ini, kita akan mempelajari tentang modifier visibilitas atau aksesibil
 Tidak seperti bahasa pemrograman umumnya, dalam Kotlin, modifier default adalah public. Jika suatu anggota memiliki hak akses public, maka anggota tersebut dapat diakses dari luar kelas melalui objek dari kelas tersebut.
 
 Pada pembahasan sebelumnya kita sudah memiliki sebuah kelas `Animal` dengan properti publik seperti `name`, `age`, `weight` dan `isMammal`. Properti tersebut dapat kita akses dari luar kelas `Animal`.
+
+![Completion Sugestion](https://d17ivq9b7rppb3.cloudfront.net/original/academy/20190429171924c871aeea325dad57f899bd1964051bb8.png)
 
 Dari completion suggestion terlihat bahwa properti tersebut dapat kita akses di luar dari kelasnya.
 
@@ -1146,6 +1154,8 @@ Penggunaan kata kunci `"as"` biasanya digunakan ketika kita menggunakan kelas, f
 
 Seperti yang kita ketahui sebelumnya, pada package **kotlin.math** terdapat banyak fungsi dan variabel yang dapat kita gunakan. Kita bisa melihat pada completion suggestion berikut:
 
+![Class](https://d17ivq9b7rppb3.cloudfront.net/original/academy/20190430105930df0777754ce4a43b248a8741114970a1.png)
+
 Kita dapat mengimpor seluruh kelas, fungsi dan variabel yang berada pada suatu package dengan menggunakan tanda  `*` pada akhir package tersebut.
 
 ```
@@ -1175,6 +1185,8 @@ Seperti yang telah dijelaskan sebelumnya, package adalah suatu wadah yang mengel
 Idealnya sebuah package pada Kotlin dituliskan dengan awalan nama domain perusahaan yang dibalik. Contoh, **com.amoled**. Kemudian diikuti dengan nama package yang akan digunakan.
 
 Untuk membuat sebuah package kita perlu membuat folder package pada berkas proyek. Perhatikan **Project Tool Window** yang terdapat pada IntelliJ Idea. Klik kanan pada folder **src** kemudian arahkan pada menu **New > package**.
+
+![Membuat Package](https://d17ivq9b7rppb3.cloudfront.net/original/academy/2019043011134425ee315acb2e1317ad4eabcb273045d2.gif)
 
 Setelah itu ketikkan nama package yang akan kita buat, misalnya **com.amoled.oop.utils**:
 
