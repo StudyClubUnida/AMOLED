@@ -77,7 +77,7 @@ Kotlin menyediakan beberapa pembuat coroutine yang dapat disesuaikan dengan berb
 
 - Pembuat coroutines "async" digunakan untuk memulai coroutines yang mengembalikan hasil. Namun, perlu diingat bahwa "async" akan menangkap setiap pengecualian (exception) yang terjadi dalam coroutines. Sebagai hasilnya, "async" akan mengembalikan objek "Deferred" yang berisi hasil atau pengecualian. Jika hasilnya adalah pengecualian, kita harus siap untuk menanganinya.
 
-```agsl
+```
 import kotlinx.coroutines.*
 import kotlin.system.measureTimeMillis
 suspend fun getCapital(): Int {
@@ -157,7 +157,7 @@ fun main() = runBlocking {
 
 Setelah diinisialisasi, job akan berada dalam keadaan New dan akan segera dijalankan. Namun, jika Anda ingin membuat sebuah job tanpa menjalankannya secara langsung, Anda dapat menggunakan CoroutineStart.LAZY seperti contoh di bawah ini:
 
-```agsl
+```
 fun main() = runBlocking {
     val job = launch(start = CoroutineStart.LAZY) {
         TODO("Not implemented yet!")
@@ -166,7 +166,7 @@ fun main() = runBlocking {
 ```
 ### Menjalankan Job
 Setelah membuat sebuah job, kini kita bisa mulai menjalankan job tersebut. Caranya pun cukup sederhana, kita bisa menggunakan fungsi start() seperti berikut:
-```agsl
+```
 fun main() = runBlocking {
     val job = launch(start = CoroutineStart.LAZY) {
         delay(1000L)
@@ -190,7 +190,7 @@ Jadi, start() digunakan ketika kita ingin menjalankan job secara asynchronous da
 
 nya job yang sedang aktif yang dapat dibatalkan. Anda dapat melakukan pembatalan ini dengan memanggil fungsi cancel() seperti contoh di bawah ini:
 
-```agsl
+```
 fun main() = runBlocking {
     val job = launch {
         delay(5000)
@@ -206,7 +206,7 @@ fun main() = runBlocking {
 }
 ```
 untuk menambah pesan error bisa menambahkan dengan kode ini
-```agsl
+```
 //menambah kode ni
 @InternalCoroutinesApi
 fun main() = runBlocking {
@@ -254,7 +254,7 @@ launch(Dispatcher.IO){
 - Dispatchers.Unconfined : Dispatcher ini akan menjalankan coroutines pada thread yang sedang aktif hingga mencapai titik penangguhan. Setelah penangguhan terjadi, coroutines akan dilanjutkan pada thread di mana operasi penangguhan tersebut dipanggil.
 
 Sebagai contoh, ketika fungsi a memanggil fungsi b yang dijalankan dengan dispatcher pada thread tertentu, fungsi a akan dilanjutkan pada thread yang sama di mana fungsi b dijalankan.
-```agsl
+```
 import kotlinx.coroutines.*
  
 fun main() = runBlocking<Unit> {
@@ -270,7 +270,7 @@ ada beberapa builder yang dapat digunakan untuk menentukan thread yang dibutuhka
 
 - Single Thread Context : Dispatcher ini memastikan bahwa setiap saat coroutines akan dijalankan pada thread yang ditentukan. Untuk mengimplementasikannya, Anda dapat menggunakan newSingleThreadContext() seperti contoh kode berikut:
 
-```agsl
+```
 import kotlinx.coroutines.*
  
 fun main() = runBlocking<Unit> {
@@ -289,7 +289,7 @@ fun main() = runBlocking<Unit> {
 - Thread Pool : Dispatcher ini merupakan sebuah pool thread yang memiliki kumpulan thread. Dispatcher ini akan memulai dan melanjutkan coroutines di salah satu thread yang tersedia dalam kumpulan tersebut. Pada saat runtime, sistem akan menentukan thread mana yang tersedia dan juga bagaimana proses distribusi beban kerjanya.
 
 contoh codingannya :
-```agsl
+```
 import kotlinx.coroutines.*
  
 fun main() = runBlocking<Unit> {
@@ -311,7 +311,7 @@ fun main() = runBlocking<Unit> {
 **Channels** merupakan nilai deferred yang menyediakan mekanisme yang mudah untuk mentransfer nilai tunggal antara coroutines. Secara konsep, channels memiliki kesamaan dengan BlockingQueue [11], namun alih-alih memblokir sebuah thread, channels menangguhkan sebuah coroutine yang lebih efisien dan ringan.
 
 contoh codenya
-```agsl
+```
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
  
