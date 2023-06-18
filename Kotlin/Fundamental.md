@@ -1,4 +1,5 @@
 > ## Fundamental Kotlin
+>> [Back](https://github.com/StudyClubUnida/AMOLED/blob/main/Kotlin/Modul%20Kotlin.md)
 
 ## Daftar Isi
 1. [Kotlin Fundamental](#kotlin-fundamental)
