@@ -11,9 +11,10 @@ Kita akan bahas 4 pilar penting yang ada pada Modern Android Development.
 
 Perlu diketahui bahwa saat ini komponen Jetpack terus bertambah hingga lebih dari 70 library dan dibagi menjadi 9 bagian yaitu:
 
-<center>
-  <img src="https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Assets/Modern%20Android%20Development.png" width="400">
-</center>
+<h1 align="center">
+  <img src="https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Assets/Modern%20Android%20Development.png" width="400"></img>
+</h1>
+
  
 1. **_Language_**
 
@@ -170,9 +171,9 @@ Kita hanya akan fokus dengan komponen-komponen yang populer dan sering digunakan
 ### d. Android Architecture Component
 **_Android Architecture Components_** adalah kumpulan library yang membantu Anda untuk merancang aplikasi yang kuat, dapat diuji, dan dapat dikelola dengan mudah. Berikut ini adalah gambaran dari Architecture Components:
 
-<center>
+<h1 align="center">
   <img src="https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Assets/architecture%20component.png" width="400">
-</center>
+</h1>
 
 Gambar di atas, merupakan gambaran besar tentang Architecture Components. Setiap komponen memiliki fungsinya sendiri. Jika dipecah menjadi beberapa komponen :
 
