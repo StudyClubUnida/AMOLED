@@ -18,8 +18,8 @@ Pada modul terakhir ini, kita akan belajar tentang pengaturan tugas-tugas secara
 - [Membatalkan Job](#membatalkan-job)
 - [Deferred](#deferred)
 - [Coroutine Dispatcher](#coroutine-dispatcher)
-- [Channels]()
-- [Rangkuman]()
+- [Channels](#channels)
+- [Rangkuman](#rangkuman)
 
 ## Concurrency Pada Kotlin
 Apa itu Concurency? Concurrency merujuk pada situasi ketika beberapa proses terjadi secara simultan dalam suatu sistem. Fenomena ini sangat umum dan sering terjadi dalam kehidupan sehari-hari. Misalnya, di dunia nyata, kita sering melakukan beberapa kegiatan sekaligus. Oleh karena itu, ketika merancang sistem yang mendukung kegiatan nyata, perhatian terhadap concurrency menjadi sangat penting.
