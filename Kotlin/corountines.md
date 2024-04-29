@@ -18,8 +18,8 @@ Pada modul terakhir ini, kita akan belajar tentang pengaturan tugas-tugas secara
 - [Membatalkan Job](#membatalkan-job)
 - [Deferred](#deferred)
 - [Coroutine Dispatcher](#coroutine-dispatcher)
-- [Channels]()
-- [Rangkuman]()
+- [Channels](#channels)
+- [Rangkuman](#rangkuman)
 
 ## Concurrency Pada Kotlin
 >> [UP](#daftar-isi)
