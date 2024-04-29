@@ -22,14 +22,19 @@ Pada modul terakhir ini, kita akan belajar tentang pengaturan tugas-tugas secara
 - [Rangkuman]()
 
 ## Concurrency Pada Kotlin
+>> [UP](#daftar-isi)
+
 Apa itu Concurency? Concurrency merujuk pada situasi ketika beberapa proses terjadi secara simultan dalam suatu sistem. Fenomena ini sangat umum dan sering terjadi dalam kehidupan sehari-hari. Misalnya, di dunia nyata, kita sering melakukan beberapa kegiatan sekaligus. Oleh karena itu, ketika merancang sistem yang mendukung kegiatan nyata, perhatian terhadap concurrency menjadi sangat penting.
 
 ## Concurrency vs Parallelism
+>> [UP](#daftar-isi)
+
 Concurrency terjadi ketika beberapa proses saling tumpang tindih pada saat yang sama. Hal ini dapat terjadi ketika terdapat dua atau lebih thread yang sedang aktif. Jika komputer hanya memiliki satu core, semua thread tidak akan dieksekusi secara paralel. Meskipun demikian, concurrency memungkinkan komputer dengan satu core terlihat seperti melakukan banyak tugas secara bersamaan, meskipun sebenarnya tugas-tugas tersebut dilakukan secara bergantian.
 
 Sementara itu, parallelism terjadi ketika dua proses dieksekusi secara bersamaan pada titik waktu yang sama. Parallelism dapat terjadi jika terdapat dua atau lebih thread dan komputer memiliki dua core atau lebih. Dengan demikian, setiap core dapat menjalankan perintah dari masing-masing thread secara bersamaan.
 
 ## Process, Thread, I/O-Bound
+>> [UP](#daftar-isi)
 
 **Process:**  sebuah program yang sedang berjalan di dalam sistem komputer. Setiap proses memiliki ruang memori sendiri dan dapat berjalan secara independen. Proses juga dapat memiliki satu atau lebih thread yang bekerja bersama untuk menyelesaikan tugas yang diberikan.
 
@@ -38,6 +43,7 @@ Sementara itu, parallelism terjadi ketika dua proses dieksekusi secara bersamaan
 **I/O-Bound:**  merujuk pada jenis pekerjaan yang lebih banyak bergantung pada operasi input/output (I/O) daripada pada penggunaan CPU. Tugas I/O-Bound seringkali melibatkan membaca atau menulis data ke perangkat I/O seperti disk atau jaringan. Pada tugas-tugas ini, sebagian besar waktu dihabiskan untuk menunggu operasi I/O selesai, sementara penggunaan CPU relatif rendah.
 
 ## Permasalahan Deadlocks dan Livelocks
+>> [UP](#daftar-isi)
 
 **Deadlock:**  Deadlock adalah kondisi di mana beberapa proses terjebak karena saling menunggu sumber daya yang dipegang oleh proses lain. Untuk terjadi deadlock, empat kondisi harus terpenuhi: mutual exclusion, hold and wait, no preemption, dan circular wait. Deadlock dapat dicegah dengan menggunakan strategi penghindaran, deteksi, pencegahan, atau pemulihan. Memahami deadlock penting untuk mencegah terjadinya dan menjaga kinerja sistem yang stabil.
 
@@ -46,6 +52,7 @@ Sementara itu, parallelism terjadi ketika dua proses dieksekusi secara bersamaan
 Perbedaan antara livelock dan deadlock adalah bahwa dalam livelock, proses-proses terus bergerak dan melakukan tindakan, namun mereka tidak berhasil mencapai tujuan akhir atau saling mempengaruhi satu sama lain. Ini bisa terjadi ketika dua atau lebih proses saling menghambat satu sama lain dan terus menyesuaikan tindakan mereka tanpa mencapai keadaan yang diharapkan.
 
 ## Permasalahan Starvation dan Race Conditions
+>> [UP](#daftar-isi)
 
 **Starvation** adalah kondisi di mana sebuah proses atau sumber daya sistem tidak mendapatkan akses yang adil atau tidak pernah mendapatkan kesempatan untuk melanjutkan eksekusi atau menggunakan sumber daya yang diperlukan. Hal ini dapat terjadi jika sistem memberikan prioritas yang tidak seimbang atau tidak adil kepada proses-proses tertentu, sehingga proses lain terus-menerus terabaikan.
 
@@ -56,20 +63,23 @@ Perbedaan antara livelock dan deadlock adalah bahwa dalam livelock, proses-prose
 **Contoh dari race conditions** adalah ketika dua atau lebih thread mencoba mengubah nilai variabel bersama secara bersamaan tanpa pengaturan sinkronisasi.
 
 ## Kotlin Coroutines
+>> [UP](#daftar-isi)
 
 Coroutines adalah fitur unggulan dalam Kotlin yang digunakan untuk menulis kode asynchronous dan non-blocking. Mereka dianggap sebagai "thread yang ringan" karena coroutines lebih efisien daripada thread dalam hal penggunaan sumber daya. Coroutines dapat berjalan dalam thread tunggal dan memungkinkan jutaan coroutines berjalan dalam beberapa thread. Coroutines dikelola oleh pengguna, sedangkan thread dikelola oleh sistem operasi. Meskipun coroutines dijalankan dalam thread, mereka tidak saling terikat dan satu thread dapat memiliki banyak coroutines di dalamnya.
 
 ## Memulai Coroutines
+>> [UP](#daftar-isi)
 
 Untuk mendapatkan pemahaman yang lebih baik tentang coroutines, mari kita memulai dengan mencobanya langkah demi langkah. Yang perlu Anda ketahui pertama adalah bahwa coroutines bukanlah bagian asli dari bahasa Kotlin, tetapi merupakan sebuah library yang disediakan oleh JetBrains. Oleh karena itu, untuk menggunakan coroutines, Anda perlu menambahkan dependensi berikut ke file **build.gradle.kts:**
 
-```agsl
+```
 dependencies {
     implementation(org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1)
 }
 ```
 
 ## Coroutines Builder
+>> [UP](#daftar-isi)
 
 Kotlin menyediakan beberapa pembuat coroutine yang dapat disesuaikan dengan berbagai skenario, seperti:
 
@@ -112,6 +122,7 @@ suspend fun getIncome(): Int {
 ```
 
 ## Job
+>> [UP](#daftar-isi)
 
 Secara umum, dalam coroutines, terdapat dua jenis fungsi asynchronous. Pertama, fungsi yang mengembalikan hasil, yang digunakan ketika kita ingin mendapatkan data setelah fungsi tersebut selesai dijalankan. Misalnya, ini berguna saat mengambil informasi dari web service yang memberikan respon dalam format JSON atau format lainnya. Kedua, fungsi yang tidak mengembalikan hasil, yang biasanya digunakan untuk mengirimkan analitik, mencatat log, atau melakukan tugas serupa yang tidak memerlukan pengembalian nilai.
 
@@ -140,10 +151,11 @@ Berikut adalah penjelasan tentang setiap state yang mungkin terjadi pada sebuah 
 Dengan memahami setiap state ini, kita dapat melacak dan mengelola keadaan job dalam coroutines.
 
 ## Membuat dan Menjalankan Job Baru
+>> [UP](#daftar-isi)
 
 Job dapat dimulai dengan menggunakan fungsi launch() atau dengan membuat objek Job() seperti contoh di bawah ini:
 
-```agsl
+```
 //menggunakan launch():
 fun main() = runBlocking {
     val job = launch {
@@ -167,6 +179,8 @@ fun main() = runBlocking {
 }
 ```
 ### Menjalankan Job
+>> [UP](#daftar-isi)
+
 Setelah membuat sebuah job, kini kita bisa mulai menjalankan job tersebut. Caranya pun cukup sederhana, kita bisa menggunakan fungsi start() seperti berikut:
 ```
 fun main() = runBlocking {
@@ -189,6 +203,7 @@ Di sisi lain, dengan menggunakan join(), program akan menunggu hingga job selesa
 Jadi, start() digunakan ketika kita ingin menjalankan job secara asynchronous dan melanjutkan eksekusi program tanpa menunggu hasilnya, sedangkan join() digunakan ketika kita ingin menunggu job selesai sebelum melanjutkan eksekusi program.
 
 ## Membatalkan Job
+>> [UP](#daftar-isi)
 
 nya job yang sedang aktif yang dapat dibatalkan. Anda dapat melakukan pembatalan ini dengan memanggil fungsi cancel() seperti contoh di bawah ini:
 
@@ -227,16 +242,19 @@ fun main() = runBlocking {
 }
 ```
 ## Deferred
+>> [UP](#daftar-isi)
+
 Pada dasarnya, nilai yang dikembalikan oleh fungsi async juga merupakan sebuah job. Nilai deferred ini dibuat dan dimulai ketika coroutine mencapai state active. Namun, fungsi async juga memiliki parameter opsional seperti CoroutineStart.LAZY yang memungkinkan deferred untuk dimulai saat fungsi start, join, atau await dipanggil. Dengan menggunakan parameter tersebut, kita dapat mengaktifkan deferred hanya saat dibutuhkan oleh perintah start, join, atau await.
 
 ## Coroutine Dispatcher
+>> [UP](#daftar-isi)
 
 Dalam coroutines, kita perlu menentukan thread mana yang akan digunakan untuk menjalankan dan melanjutkan sebuah coroutine. Untuk melakukan ini, kita menggunakan base class yang disebut CoroutineDispatcher. Di dalam kelas tersebut, terdapat beberapa objek yang dapat digunakan untuk menentukan thread yang akan digunakan untuk menjalankan coroutines.
 
 - Dispatchers.Default : merupakan dispatcher dasar yang digunakan oleh semua builder standar seperti launch, async, dan sebagainya, jika tidak ada dispatcher lain yang ditentukan secara eksplisit. Dispatchers.Default menggunakan kumpulan thread yang tersedia pada JVM. Pada dasarnya, jumlah maksimum thread yang digunakan oleh Dispatchers.Default adalah sama dengan jumlah core yang ada pada CPU.
 
 untuk menulisnya bisa dengan dengan code ini :
-```agsl
+```
 launch {
     // TODO: Implement suspending lambda here
 }
@@ -248,7 +266,7 @@ launch(Dispatchers.Default){
 - Dispatchers.IO : sebuah dispatcher yang digunakan untuk menghindari pemblokiran pada operasi I/O. Dispatcher ini akan menggunakan kumpulan thread yang dibuat berdasarkan permintaan. Anda dapat menggunakannya dengan menambahkan Dispatchers.IO pada builder coroutines.
 
 contoh penulisannya :
-```agsl
+```
 launch(Dispatcher.IO){
     // TODO: Implement algorithm here
 }
@@ -309,6 +327,7 @@ fun main() = runBlocking<Unit> {
 //Resuming in myPool-2
 ```
 ## Channels
+>> [UP](#daftar-isi)
 
 **Channels** merupakan nilai deferred yang menyediakan mekanisme yang mudah untuk mentransfer nilai tunggal antara coroutines. Secara konsep, channels memiliki kesamaan dengan BlockingQueue [11], namun alih-alih memblokir sebuah thread, channels menangguhkan sebuah coroutine yang lebih efisien dan ringan.
 
@@ -330,6 +349,8 @@ fun main() = runBlocking(CoroutineName("main")) {
 ```
 
 ## Rangkuman
+>> [UP](#daftar-isi)
+
 Rangkuman dari berbagai konsep dan fitur yang telah kita pelajari dalam pengenalan coroutines adalah sebagai berikut:
 
 - Concurrency adalah kemampuan menjalankan beberapa proses secara bersamaan, sedangkan parallelism adalah menjalankan proses-proses tersebut secara benar-benar bersamaan.
