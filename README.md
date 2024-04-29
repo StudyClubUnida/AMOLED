@@ -23,16 +23,16 @@ Berikut alur belajar Android dari Tim AMOLED
 ### Android Dasar <sup>[belajar](https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Modul%20Android.md) </sup>
 
 1. [Instalasi Android Studio](https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Modul%20Android.md#instalasi-android-studio)
-2. [View Binding]()
-3. [Activity (New Project)]()
-4. [View dan View Grup]()
-5. [Intent]()
-6. [Recycler View]()
-7. [Visual Design & Prototype]()
-8. [Fragment]()
-9. [Networking]()
-10. [Android Architecture]()
-11. [Local Data]()
+2. [View Binding](https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Modul%20Android.md#view-binding)
+3. [Activity (New Project)](https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Modul%20Android.md#activity-new-project)
+4. [View dan View Grup](https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Modul%20Android.md#activity-new-project)
+5. [Intent](https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Modul%20Android.md#intent)
+6. [Recycler View](https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Modul%20Android.md#recycler-view)
+7. [Style & Theme](https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Modul%20Android.md#style--theme)
+8. [Fragment](https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Modul%20Android.md#fragment)
+9. [Networking](https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Modul%20Android.md#networking)
+10. [Android Architecture](https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Modul%20Android.md#android-architecture)
+11. [Local Data](https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Modul%20Android.md#local-data)
 
 ## Documentation
 
@@ -47,7 +47,7 @@ Berikut alur belajar Android dari Tim AMOLED
 - [Dafa]()
 - [Zarkasih]()
 - [Haidar]()
-- [Noris]()
+- [Noris](https://github.com/naufalharitsprasetia)
 
 ## Contributors
 - [Pratama](https://github.com/ardenaAfif)
