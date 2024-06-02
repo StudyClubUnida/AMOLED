@@ -2,7 +2,7 @@
 >> [Back](https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Modul%20Android.md)
 
 <h1 align="center">
-  <img src="https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Assets/view_viewgroup.jpeg" width="400"></img>
+  <img src="https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Assets/view_viewgroup.jpeg" width="600"></img>
 </h1>
 
 - **_View_** adalah komponen dasar yang ditampilkan di layar dan dapat digunakan untuk berinteraksi dengan pengguna. Contoh komponen turunan View meliputi `TextView`, `Button`, `ImageView`, `RadioButton`, `Checkbox`, dan lainnya.
