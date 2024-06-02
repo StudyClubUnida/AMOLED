@@ -14,7 +14,7 @@
     - **_Implicit Intent_:** Digunakan untuk menjalankan aksi tertentu tanpa menentukan aplikasi tujuan secara spesifik. Sistem akan mencari aplikasi yang mampu menangani aksi tersebut dan memberikan pilihan kepada pengguna jika ada lebih dari satu aplikasi yang sesuai. Contohnya, membuka peta (bisa menggunakan Google Maps atau Waze) atau mengambil foto (bisa menggunakan aplikasi kamera bawaan atau aplikasi kamera pihak ketiga).
 
     <h1 align="center">
-        <img src="https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Assets/implicit_explicit_intents_android.jpg.png" width="400"></img>
+        <img src="https://github.com/StudyClubUnida/AMOLED/blob/main/Android/Assets/implicit_explicit_intents_android.jpg" width="400"></img>
     </h1>
 
 - Fungsi `putExtra(key, value)` digunakan untuk menambahkan data ke dalam Intent dalam format pasangan kunci-nilai.
