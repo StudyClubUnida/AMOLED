@@ -59,7 +59,7 @@ Pada bagian ini, kita akan mempelajari prinsip desain yang digunakan dalam penge
 
 Dalam pengembangan aplikasi Android, prinsip desain memainkan peran penting dalam menciptakan antarmuka pengguna (UI) yang menarik dan intuitif. Prinsip desain ini mencakup konsep seperti Material Design, penggunaan warna, tipografi, tata letak (layout), dan pola desain yang konsisten. Semangat Belajar💪🏻
 
-[Yuk Belajar!]()
+[Yuk Belajar!](style-and-theme.md)
 
 
 > ## Fragment
