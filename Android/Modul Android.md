@@ -63,7 +63,9 @@ Dalam pengembangan aplikasi Android, prinsip desain memainkan peran penting dala
 
 
 > ## Fragment
-![Animasi](https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Assets/fragment.gif)
+<h1 align="center">
+  <img src="https://github.com/Study-Club-Unida/AMOLED/blob/main/Android/Assets/fragment.gif" width="600"></img>
+</h1>
 
 Ketika layar memiliki ukuran yang kecil, aplikasi akan menampilkan hanya daftar (list) tanpa detailnya. Namun, ketika layar memiliki ukuran yang lebih besar, seperti pada tablet, aplikasi akan menampilkan daftar beserta detailnya. Dengan demikian, pengguna tablet akan mendapatkan pengalaman yang lebih baik.
 
